@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Parrot {
 
-    private String name  = "Koko";
+    private String name  = "Pipi";
 
     public Parrot(){
-        System.out.println("Parrot created");
+        System.out.println("Parrot created " + name);
     }
 
     @Override

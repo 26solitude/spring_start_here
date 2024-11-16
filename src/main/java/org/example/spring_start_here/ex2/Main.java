@@ -9,9 +9,7 @@ public class Main {
 
         Person person = context.getBean(Person.class);
 
-
         System.out.println("Person's name : " + person.getName());
-
 
         System.out.println("Person's parrot : " + person.getParrot());
     }
