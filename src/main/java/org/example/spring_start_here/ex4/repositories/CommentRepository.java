@@ -1,7 +1,10 @@
 package org.example.spring_start_here.ex4.repositories;
 
-import org.example.spring_start_here.ex4.model.Comment;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Repository;
 
-public interface CommentRepository {
-    void storeComment(Comment comment);
+@Repository
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
+public class CommentRepository {
 }

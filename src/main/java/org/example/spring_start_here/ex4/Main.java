@@ -9,9 +9,10 @@ public class Main {
     public static void main(String[] args) {
         var c = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        System.out.println("Before retrieving the CommentService");
-        var service = c.getBean(CommentService.class);
-        System.out.println("After retrieving the CommentService");
+        var s1 = c.getBean(CommentService.class);
+        var s2 = c.getBean(UserService.class);
 
+        boolean b1 = s1.getCommentRepository() == s2.getCommentRepository();
+        System.out.println(b1);
     }
 }
