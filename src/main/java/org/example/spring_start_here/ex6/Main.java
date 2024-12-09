@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var c = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        var c = new AnnotationConfigApplicationContext(ProjectConfig_ex6.class);
         var service = c.getBean(CommentService.class);
 
         Comment comment = new Comment();

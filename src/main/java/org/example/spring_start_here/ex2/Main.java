@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Main {
 
     public static void main(String[] args) {
-        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        var context = new AnnotationConfigApplicationContext(ProjectConfig_ex2.class);
 
         Person person = context.getBean(Person.class);
 

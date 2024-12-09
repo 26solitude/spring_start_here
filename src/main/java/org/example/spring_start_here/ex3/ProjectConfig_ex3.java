@@ -1,17 +1,11 @@
 package org.example.spring_start_here.ex3;
 
-import org.example.spring_start_here.ex3.proxies.CommentNotificationProxy;
-import org.example.spring_start_here.ex3.proxies.EmailCommentNotificationProxy;
-import org.example.spring_start_here.ex3.repositories.CommentRepository;
-import org.example.spring_start_here.ex3.repositories.DBCommentRepository;
-import org.example.spring_start_here.ex3.services.CommentService;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = {"org.example.spring_start_here.ex3.proxies", "org.example.spring_start_here.ex3.repositories", "org.example.spring_start_here.ex3.services"})
-public class ProjectConfiguration {
+public class ProjectConfig_ex3 {
 
 //    @Bean
 //    public CommentRepository commentRepository(){

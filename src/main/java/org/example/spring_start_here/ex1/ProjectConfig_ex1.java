@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "org.example.spring_start_here.ex1")
-public class ProjectConfig {
+public class ProjectConfig_ex1 {
 
 //    @Bean(name = "koko")
 //    @Primary

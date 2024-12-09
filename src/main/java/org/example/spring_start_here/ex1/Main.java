@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
 public class Main {
     public static void main(String[] args) {
-        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        var context = new AnnotationConfigApplicationContext(ProjectConfig_ex1.class);
 
         Parrot x = new Parrot();
         x.setName("Kiki");

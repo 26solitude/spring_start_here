@@ -8,7 +8,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @ComponentScan(basePackages = "org.example.spring_start_here.ex6")
 @EnableAspectJAutoProxy
-public class ProjectConfig {
+public class ProjectConfig_ex6 {
     @Bean
     public SecurityAspect securityAspect() {
         return new SecurityAspect();
