@@ -1,6 +1,6 @@
-package org.example.spring_start_here.ex9.proxy;
+package org.example.spring_start_here.ex10.port9090.proxy;
 
-import org.example.spring_start_here.ex9.model.Payment;
+import org.example.spring_start_here.ex10.port9090.model.Payment;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,5 +13,4 @@ public interface PaymentsProxy {
     Payment createPayment(
             @RequestHeader String requestId,
             @RequestBody Payment payment);
-
 }

@@ -1,4 +1,4 @@
-package org.example.spring_start_here.ex9.model;
+package org.example.spring_start_here.ex10.port8081.model;
 
 import lombok.Getter;
 import lombok.Setter;
