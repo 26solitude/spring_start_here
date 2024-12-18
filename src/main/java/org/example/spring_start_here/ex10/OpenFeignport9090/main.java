@@ -1,4 +1,4 @@
-package org.example.spring_start_here.ex10.port9090;
+package org.example.spring_start_here.ex10.OpenFeignport9090;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
