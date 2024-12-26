@@ -1,4 +1,4 @@
-package org.example.spring_start_here.ex10.RestTemplateport9090.config;
+package org.example.spring_start_here.ex10.restTemplatePort9090.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

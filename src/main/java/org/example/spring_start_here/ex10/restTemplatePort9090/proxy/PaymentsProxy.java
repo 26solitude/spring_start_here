@@ -1,6 +1,6 @@
-package org.example.spring_start_here.ex10.RestTemplateport9090.proxy;
+package org.example.spring_start_here.ex10.restTemplatePort9090.proxy;
 
-import org.example.spring_start_here.ex10.RestTemplateport9090.model.Payment;
+import org.example.spring_start_here.ex10.restTemplatePort9090.model.Payment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

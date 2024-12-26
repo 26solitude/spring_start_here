@@ -1,7 +1,7 @@
-package org.example.spring_start_here.ex10.RestTemplateport9090.controller;
+package org.example.spring_start_here.ex10.restTemplatePort9090.controller;
 
-import org.example.spring_start_here.ex10.RestTemplateport9090.model.Payment;
-import org.example.spring_start_here.ex10.RestTemplateport9090.proxy.PaymentsProxy;
+import org.example.spring_start_here.ex10.restTemplatePort9090.model.Payment;
+import org.example.spring_start_here.ex10.restTemplatePort9090.proxy.PaymentsProxy;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
