@@ -25,14 +25,14 @@ public class ProductsController {
 //    @PostMapping("/products")
 //    public String addProduct(@RequestParam String name,
 //                             @RequestParam double price,
-//                             Model model) {
+//                             Model Account) {
 //        Product p = new Product();
 //        p.setName(name);
 //        p.setPrice(price);
 //        productService.addProduct(p);
 //
 //        var products = productService.findAll();
-//        model.addAttribute("products", products);
+//        Account.addAttribute("products", products);
 //
 //        return "products.html";
 //    }
