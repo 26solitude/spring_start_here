@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/df422cf7-974e-4161-99e2-9e5238d708f5)
+<img src="https://github.com/user-attachments/assets/df422cf7-974e-4161-99e2-9e5238d708f5" width="400">  
 
 이 저장소는 **"스프링 교과서"** 책에서 다루는 예제 코드들을 모아둔 공간입니다. 매 챕터별로 학습 과정을 기록하고, 필요한 경우 코드를 수정하거나 추가적인 주석을 달아 정리하고 있습니다.
 
